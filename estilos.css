@@ -1,0 +1,590 @@
+*{
+    margin:0;
+    padding:0;
+
+}
+
+
+
+/*header y footer estilos */
+
+/*estilos del header: */
+.logo-header img{
+    width:100%;
+    margin-left: 70%;
+}
+
+.logo-header{
+    width: 15%;
+    margin-top:1%;
+}
+
+nav{
+    margin-left:6%;
+    margin-top:2%;
+}
+ul{
+    list-style: none; 
+}
+
+li a{
+    text-decoration: none;
+    color:black;
+    float: left;
+    padding-left: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+}
+
+nav ul li :hover  {
+    color:rgb(189, 55, 0);
+}
+
+/*estilos del footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-top: 8%;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    font-family: 'Open Sans', sans-serif;
+}
+.image-footer img{
+    width: 20%;
+}
+.email{
+    margin-top: 0.5%;
+}
+.frase-footer{
+    margin-top: 3%;
+    font-size: 1.5rem;
+    margin-bottom: 3%;
+}
+
+.emailBox input{
+   color: white;
+    background-color: transparent;
+    border-color: transparent;
+    text-align: center;
+    margin-bottom: 1%;
+    font-size: 1rem;
+}
+.emailBox hr{
+    margin-left: 35%;
+    margin-right: 35%;
+    margin-bottom: 1%;
+}
+
+.checkbox{
+    font-size: 0.95rem;
+    margin-bottom: 2%;
+}
+
+button{
+    padding:0.5%;
+    font-size: 1rem;  
+    margin-bottom: 3%;
+}
+
+button:hover{
+    background-color: rgb(189, 55, 0);
+    color:rgb(255, 255, 255);
+    border-color:rgb(189, 55, 0);
+    border-radius: 4%;
+}
+
+.menu-footer{
+    margin-bottom: 2%;  
+}
+
+.elemento1{
+    padding-left: 31.5%;
+
+}
+.menu-footer a{
+    color:white;
+    font-size: 0.8rem;  
+    font-weight: normal;
+    text-decoration: none;
+    float:left;
+    padding-left:5%;
+ 
+}
+
+.menu-footer a:hover{
+    color:  rgb(189, 55, 0);
+}
+
+.credits-footer p{
+    font-size: 0.8rem;
+    padding: 0.3%;
+}
+
+
+
+/*index.html*/
+main{
+   font-family: "Alegreya", serif;
+}
+
+.image-utopia-marciana{
+    width: 100%;
+    background-color: black;
+    margin-top: -10%;
+
+}
+
+.image-utopia-marciana img{
+    width: 20%;
+    margin-left: 80%;
+}
+
+.text-utopia{
+    color: white;
+    margin-top: 10%;
+    margin-left: 11%;
+}
+
+.text-utopia h1{
+    font-size: 3rem;
+}
+
+.text-utopia p{
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.container{
+    margin-top: 2%;
+    margin-left: 11.25%;
+}
+
+.container-titulos h2{
+    padding-bottom: 1%;
+}
+
+/*estilo cards en index.html*/
+.container-cards{
+        margin-top: 2%;
+        display: flex;
+        flex-wrap: wrap;  
+}
+.card{
+    float: left;
+    width: 30%;    
+    padding-bottom:5%;
+}
+ .card:nth-child(odd) {
+    background-color: rgba(0,0,0,0.1);
+  }
+
+.card-image img{
+    width: 100%;
+}
+.card-title{
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    font-size: 1.3rem;
+}
+
+.card-title a{
+     text-decoration: none;
+    color: rgb(224, 54, 2);
+
+}
+.card-text{
+     margin-left: 3%;
+    margin-right: 25%;
+}
+
+/*estilos mars-2020*/
+.text-mars-2020{
+    margin-top:10%;
+    margin-left:30%;
+    margin-right: 5%;
+    text-align: justify;
+}
+.menu-mars-2020 p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+
+}
+.menu-mars-2020{
+    margin-left: 11.5%;
+    width: 20%;
+    position: absolute;
+    top:35%;
+
+}
+.menu-mars-2020 li a{
+    color:orange;
+    font-weight: normal;
+    font-size: 0.8rem;
+    float: none;   
+    margin-left: -5%;
+}
+
+.mars-2020-li li {
+    color:black;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.8rem;
+}
+
+figure{
+    margin-top: 2%;
+}
+ iframe{
+    width: 100%;
+    height: 65vh;
+    border:none;
+  }
+
+figcaption{
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/*ciencia ficcion*/
+.titulo-principal{
+    margin-top: 8%;
+    margin-left: 10.5%;
+    margin-bottom:2%;
+}
+
+.cards-ciencia-ficcion{
+    display: grid;    
+    grid-template-columns: 1fr 2fr 1fr;
+    width: 80%;
+    margin-left: 10.5%;  
+    margin-bottom:1.5%;
+}
+
+.title-ciencia-ficcion{
+    margin-right: 10%;
+}
+.title-ciencia-ficcion, .text-ciencia-ficcion{
+    background-color:rgba(0,0,0,0.1);
+    padding:3%;  
+}
+
+.text-ciencia-ficcion{
+    margin-right: 5%;
+
+
+  
+}
+.cards-ciencia-ficcion img{
+        max-width: 100%;
+        display: block;  
+}
+
+/*estilos autor ciencia-ficcion*/
+
+.autor {
+    font-size: 1.3rem;
+    padding-top: 10%;
+}
+.autor p{
+    padding-right: 10%;
+}
+
+.autor span{
+    font-weight: bold;
+    font-size: 3rem;
+    color:rgb(189, 55, 0);  
+   
+}
+
+/*marte-en-el-cine */
+.container-marte-en-el-cine{
+    margin-top:10%;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: center; 
+
+}
+.container-marte-en-el-cine h1{
+    margin-left:10.25%;
+    margin-top:-3%;
+}
+.videos{
+    margin-left:10%;
+    margin-right: 10%;
+}
+.videos figure{
+    float: left;
+    width: 50%;  
+}
+
+.videos iframe{
+    width: 98%;
+    height: 300px;
+
+}
+
+.videos figcaption{
+    background-color: rgba(0,0,0,0.1);
+    width: 98%;
+    margin-left: 1%;
+    margin-top:-1%;
+    padding-top:3%;
+    padding-bottom: 4%;
+    font-size: 1rem;
+
+}
+
+/*definiendo las media queries*/
+
+@media (max-width: 576px) {
+   /*index.html*/
+    li a{
+       
+        float: left;
+        width: 33.33%;
+        font-size: 0.9rem;
+        text-align: center;    
+        margin-left: 25%; 
+    } 
+    
+    .logo-header{
+        width: 30%;
+        margin-left: 13.5%;   
+    }
+    
+    .logo-header img{
+       width: 100%;
+    }
+    
+    .image-utopia-marciana{
+       padding-top: 10%;   
+}
+
+.text-utopia h1{
+    font-size: 2.5rem;
+}
+.text-utopia p{
+    margin-top: -5%;
+}
+
+.container-titulos{
+        margin-top: 10%;
+    }
+    
+    .card{
+        margin-left: 10%;
+        width: 100%;
+    }
+    
+    .card-image img{
+        width: 250%;
+        margin-left: -48%;
+    }
+    
+  .card:nth-child(odd) {
+    background-color: white;
+  }
+    .card-title{
+        margin-left: -47%;
+    }
+    .card-text{
+        margin-left: -47%;
+        margin-right: -100%;
+    }  
+    .image-footer img{
+    width: 40%;
+     margin-top:5%;
+}
+    .frase-footer{
+    margin-top: 10%;
+    font-size: 1.2rem;
+    margin-bottom: 3%;
+}
+    .emailBox hr{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 1%;
+}
+    .checkbox{
+    margin-top: 2%;
+    font-size: 0.9rem;
+    margin-bottom: 4%;
+}
+    button{
+    padding:1%;
+    font-size: 1rem;  
+    margin-bottom: 4%;
+}
+    .menu-footer{
+        margin-right: 9%;
+        margin-left: -10%;
+    }
+     
+    .credits-footer p{
+    font-size: 0.6rem;
+    padding: 0.3%;
+}
+    /*mars-2020*/
+    .text-mars-2020{
+        margin-top:15%;
+    }
+    
+    .menu-mars-2020{
+        top:120%;
+        position:absolute;
+        
+    }
+    footer{
+        margin-top:50%;
+    }
+   
+   
+    
+    /*marte-en-el-cine*/
+    .container-marte-en-el-cine{
+    margin-top:15%;
+    display: flex;
+    text-align: center;
+    margin-left:-10.5%;
+
+}
+    .container-marte-en-el-cine h1{
+       margin-top:5%;   
+}
+    .videos figure{
+    float:none;
+    width: 190%;
+
+}
+/*ciencia-ficcion*/
+.container-ciencia-ficcion{
+    margin-top:25%;
+}
+.cards-ciencia-ficcion{
+    display: grid;
+    grid-template-columns: 1fr;
+    width:100%;
+    margin-left: 5%;
+}
+.titulo-principal{
+    margin-left: 5%;
+}
+.text-ciencia-ficcion{
+    margin-right: 10%;
+    
+}
+.container-cards img{
+        max-width: 100%;
+        display: block;  
+}
+.image-ciencia-ficcion{
+    width: 90%;
+}
+footer{
+    margin-top: 5%;
+}
+
+     
+   
+}
+
+
+@media (max-width: 768px) {
+    .card{
+        width: 43.5%;
+    }
+    .menu-footer{
+        margin-right: 9%;
+    }
+    
+    /*mars-2020*/
+    
+    .text-mars-2020{
+        margin-bottom: 35%;
+        margin-left: 5%;
+       
+       
+    }
+    .menu-mars-2020{
+        margin-top: 130%;
+        margin-left: 5%;
+        width: 30%;
+        
+    }
+    /*ciencia-ficcion*/
+.container-ciencia-ficcion{
+    margin-top:10%;
+}
+.cards-ciencia-ficcion{
+    display: grid;
+    grid-template-columns: 1fr;
+    width:80%;
+    margin-left: 11.5%;
+}
+.titulo-principal{
+    margin-left: 11.5%;
+}
+.text-ciencia-ficcion{
+    margin-right: 10%;
+    
+}
+.container-cards img{
+        max-width: 100%;
+        display: block;  
+}
+.image-ciencia-ficcion{
+    width: 90%;
+}
+footer{
+    margin-top: 5%;
+}
+   
+        
+}
+  
+@media (max-width: 992px) {
+    /*index.html*/
+  .image-utopia-marciana{
+    width: 100%;
+    background-color: black;
+    margin-top: -15%;
+
+}
+
+.image-utopia-marciana img{
+    width: 25%;
+    margin-left: 75%;
+}
+
+.text-utopia{
+    color: white;
+    margin-top: 15%;
+    margin-left: 11%;
+  }
+     .elemento1{
+        padding-left: 29%;
+    }
+    
+    /*ciencia ficcion*/
+    .autor{
+        margin-top:-10%;
+    }
+    
+    .text-ciencia-ficcion{
+        padding-bottom: 3%;
+    }
+   
+ 
+
+}
+  
+@media (max-width: 1200px) {
+      /*mars-2020*/
+  
+
+}
+  
+
+ 
